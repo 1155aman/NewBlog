@@ -1,0 +1,55 @@
+.max_width1 {
+  max-width: 80vw;
+}
+.max_width2 {
+  max-width: 60vw;
+}
+.m_auto {
+  margin: auto;
+}
+.font1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.font2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+:root {
+  --main-bg-color: brown;
+}
+
+.form-input {
+  padding: 3px 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn {
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: grey;
+  background-color: green;
+}
+.my-2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.form-box input,textarea{
+width: 52vw;
+padding: 10px 6px;
+margin: 7px 0;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 2px solid pink;
+border-radius: 3px;
+} 

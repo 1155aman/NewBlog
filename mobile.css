@@ -1,0 +1,32 @@
+@media screen and (max-width:950px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-articles h2{
+        text-align: center;
+    }
+    .home-article{
+        flex-direction: column;
+        text-align: center;
+    }
+    .year-box {
+        display: flex;
+        font-size: 13px;
+        top: -3px;
+
+
+    }
+    .year-box div{
+        margin: 0;
+        padding: 4px;
+        font-size: 12px;
+        width: 41px;
+
+    }
+}

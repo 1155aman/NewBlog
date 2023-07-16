@@ -1,0 +1,23 @@
+
+.contact-content{
+    height: 200px;
+     /* background-color: hsl(249, 23%, 94%);  */
+     display: block;
+     /* justify-content: space-between; */
+     height: 100%;
+     margin-top: 20px;
+     padding: 8px;
+    overflow: hidden;
+     position: relative;
+    }
+    .contact-content::after{
+        content: "";
+        background-image: url(../img/istockphoto-1539396907-1024x1024.jpg);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: inherit;
+        opacity: 0.15;
+        z-index: -1;
+    }
+   
